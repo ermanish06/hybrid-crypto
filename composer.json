@@ -1,0 +1,14 @@
+{
+  "name": "ermanish06/hybrid-crypto",
+  "description": "A secure hybrid AES-256-CBC encryption/decryption PHP library with random or fixed IV support",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Crypto\\": "src/Crypto/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
